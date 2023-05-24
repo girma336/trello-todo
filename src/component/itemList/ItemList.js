@@ -40,7 +40,7 @@ const ItemList = ({ valu, val }) => {
       <div className="add__todo add__todos">
         {valu.isDone && (<div className="completed__task" />)}
         <MdEdit className="edit__icone" onClick={handleClick} />
-        <div onClick={handleToogle}>
+        <div onClick={handleToogle} role="button" tabIndex={0} onKeyDown={(e) => handleClick(e)}>
           <h3>{valu.title}</h3>
           <div className="section__description"><p>{valu.description}</p></div>
         </div>

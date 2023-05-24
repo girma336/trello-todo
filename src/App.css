@@ -65,7 +65,7 @@ textarea {
 }
 
 body {
-  background-color: #000000;
+  background-color: #000;
   color: var(--text-color);
 }
 
@@ -100,6 +100,7 @@ img {
 
 .container {
   width: 100%;
+
   /* margin-inline: auto;
   padding-inline: 15px; */
 }

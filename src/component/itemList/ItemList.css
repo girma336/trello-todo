@@ -11,7 +11,8 @@
   text-align: left;
   line-height: 1.125;
   word-spacing: normal;
-  padding: 5px;
+
+  /* padding: 5px; */
 }
 
 .edit__icone {
@@ -37,6 +38,7 @@
   background-color: var(--first-color);
   z-index: 1000000000000;
 }
+
 button,
 input,
 textarea {
@@ -56,11 +58,13 @@ textarea {
   z-index: 10000000;
   text-align: center;
 }
+
 .back__icon {
   position: absolute;
   left: 10px;
   top: 5px;
 }
+
 /* .modal__form input,
 .modal__form textarea,
 .modal__button button {

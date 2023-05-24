@@ -14,7 +14,7 @@ const Section = ({ bar }) => {
         <h1 className="section__title">Section</h1>
       </div>
       <div className="section__todo grid__todo scrollmenu ">
-        {title && title.map((val, index) => (<ListTodoTitle val={val.id} key={index} />))}
+        {title && title.map((val) => (<ListTodoTitle val={val.id} key={val.id} />))}
         <AddTodo bar={bar} />
       </div>
     </div>
