@@ -1,0 +1,92 @@
+.add__todos {
+  position: relative;
+  height: 116px;
+}
+
+.section__description {
+  position: absolute;
+  width: 210px;
+  padding-right: 10px;
+  height: 75px;
+  text-align: left;
+  line-height: 1.125;
+  word-spacing: normal;
+
+  /* padding: 5px; */
+}
+
+.edit__icone {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border: 1px solid var(--text-color);
+  cursor: pointer;
+  background-color: black;
+}
+
+.completed__task {
+  position: absolute;
+  left: 0;
+  width: 5px;
+  height: 100px;
+
+  /* border-radius: 10px; */
+  background-color: var(--first-color);
+  z-index: 1000000000000;
+}
+
+button,
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.modal__form {
+  position: fixed;
+  right: 0;
+  top: 70px;
+  width: 298px;
+  border-left: 1px solid var(--border-color);
+  height: 100vh;
+  background-color: black;
+  z-index: 10000000;
+  text-align: center;
+}
+
+.back__icon {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+/* .modal__form input,
+.modal__form textarea,
+.modal__button button {
+  width: 265px;
+}
+.modal__button {
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal__button button {
+  padding: 3px 0 3px 0;
+  width: 256px;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  background-color: blue;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 8px;
+  font-size: var(--h4-font-size);
+}
+
+.modal__form span {
+  text-align: center;
+} */

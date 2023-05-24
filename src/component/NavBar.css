@@ -1,0 +1,49 @@
+.nav {
+  position: relative;
+  z-index: 1000000000;
+  background-color: black;
+}
+
+.nav__menu {
+  position: fixed;
+  max-width: 250px;
+  width: 100%;
+  top: 0;
+  left: -250px;
+  border-right: 1px solid var(--border-color);
+  height: 100vh;
+  transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  padding: 20px;
+  z-index: 1000;
+  background-color: black;
+}
+
+.name-user {
+  font-size: var(--h3-font-size);
+  padding-bottom: 30px;
+}
+
+.show-menu {
+  left: 0;
+}
+
+.show__toggle {
+  z-index: 10000;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  color: var(--first-color);
+  background-color: var(--body-color);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.close-bar {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: var(--h2-font-size);
+}
