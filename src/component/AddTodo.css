@@ -1,0 +1,38 @@
+.add__todo {
+  width: 260px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 8px 15px;
+  font-size: var(--h4-font-size);
+  color: var(--text-color);
+  background-color: var(--container-color);
+  margin-top: 10px;
+}
+
+.to__list {
+  margin-left: 0;
+}
+
+.left__start {
+  margin-left: 0;
+}
+
+.save__todo {
+  width: 50px;
+  color: var(--body-color);
+  padding: 3px 5px;
+  cursor: pointer;
+  background-color: var(--first-color);
+  border-radius: 5px;
+  text-align: center;
+  font-size: var(--h4-font-size);
+}
+
+.save__todo:hover {
+  color: var(--first-color);
+  background-color: var(--body-color);
+}
+
+input {
+  color: var(--text-color);
+}

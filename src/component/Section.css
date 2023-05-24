@@ -1,0 +1,52 @@
+.section__main {
+  position: relative;
+  width: auto;
+  margin-left: 0px;
+  z-index: 1;
+}
+
+.start__section {
+    margin-left: 20px;
+}
+
+.section__header {
+  position: fixed;
+  border-bottom: 2px solid var(--border-color);
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+  background-color: black;
+}
+
+.section__title {
+  font-size: var(--h2-font-size);
+  padding: 10px 0 10px 70px;
+}
+
+.start__section .section__header {
+    margin-left: -20px;
+}
+
+.section__header {
+  margin-left: -30px;
+}
+
+.section__todo {
+  position: absolute;
+  top: 80px;
+  left: 5px;
+  margin-left: -10px;
+}
+
+
+.grid__todo {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-flow: column;
+  grid-gap: 30px;
+}
+/*
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+} */

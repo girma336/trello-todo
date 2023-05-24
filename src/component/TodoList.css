@@ -1,0 +1,98 @@
+.add__item {
+  position: relative;
+  display: block;
+  height: 126px;
+}
+
+.add__item input,
+.add__item textarea,
+.modal__form input,
+.modal__form textarea {
+  margin: 5px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  color: var(--white-color);
+}
+
+.modal__form input,
+.modal__form textarea {
+  border: 1px solid var(--text-color);
+}
+
+.modal__form form {
+  margin: 20px;
+}
+
+.md__add {
+  position: absolute;
+  color: var(--white-color);
+  top: 8px;
+  right: 5px;
+  font-size: var(--h3-font-size);
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  box-shadow: 0 3px 3px var(--white-color);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.md__adds {
+  position: absolute;
+  color: var(--white-color);
+  bottom: 8px;
+  right: 5px;
+  font-size: var(--h3-font-size);
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+}
+
+.modal_add_todo {
+    position: fixed;
+    inset: 0;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    z-index: 1000;
+    display: grid;
+    place-items: center;
+    padding: 15px;
+  }
+
+  .modal-content {
+    background-color: var(--container-color);
+    max-width: 300px;
+    width: 90%;
+    padding: 32px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .form__control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+  }
+  
+  .form__control:focus {
+    border-color: var(--first-color);
+  }
+  
+  .textarea {
+    resize: none;
+    height: 90px;
+  }
+  
+  .contact__button {
+    font-size: var(--h4-font-size);
+    background-color: var(--first-color);
+    cursor: pointer;
+  }
+
+  .back__icon__todo {
+    font-size: var(--h3-font-size);
+    margin-top: -15px;
+    margin-bottom: 5px;
+  }
