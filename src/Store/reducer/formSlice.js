@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { addTodoList } from './todoSlice';
+/* eslint-enable no-param-reassign */
 
 const formSlice = createSlice({
   name: 'form',

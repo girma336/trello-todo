@@ -33,7 +33,6 @@ const TodoList = ({ val }) => {
           <input {...register('title')} disabled={!add} required placeholder="Add Todo" />
           <br />
           {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-
           <textarea {...register('description')} disabled={!add} required placeholder="Add Todo description" />
         </form>
       </div>
